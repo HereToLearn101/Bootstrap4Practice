@@ -5,36 +5,63 @@ Bootstrap 4 uses HTML  elements and CSS properties that require the HTML5 doctyp
 -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- To ensure proper rendering and touch zooming, <meta> tag is added inside
-    the <head> element with the following attributes:
+<head>
+  <!-- To ensure proper rendering and touch zooming, <meta> tag is added inside
+  the <head> element with the following attributes:
 
-    width=device-width  -   sets the width of the page to follow the screen-width
-                            of the device (which will vary depending on the device)
+  width=device-width  -   sets the width of the page to follow the screen-width
+  of the device (which will vary depending on the device)
 
-    initial-scale=1   -   sets the initial zoom level when the page is first
-                          loaded by the browser -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!--
-    <link rel="stylesheet" href="css/boostrap.min.css">
-  -->
-  </head>
+  initial-scale=1   -   sets the initial zoom level when the page is first
+  loaded by the browser -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <body>
-    <div class="container">
-      <h1>My First Bootstrap Page</h1>
-      <p>This is some text.</p>
-    </div>
+</head>
 
-<!--
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  -->
-  </body>
+<body>
+  <div class="container">
+    <h1>Content Using Class Container</h1>
+    <p>This is some text.</p>
+  </div>
+  <div class="container">
+    <hr/>
+  </div>
+  <div class="container-fluid">
+    <h1>Content Using Class Container-Fluid</h1>
+    <p>This is some text.</p>
+  </div>
+  <div class="container">
+    <hr/>
+  </div>
+  <div class="container">
+    <form action="">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" type="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label form="password">Password:</label>
+        <input id="password" type="password" class="form-control">
+      </div>
+      <div class="form-group">
+        <button id="add-button" type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div id="content-div" class="container">
+
+  </div>
+  <!--
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+-->
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrapPractice.js"></script>
+</body>
 </html>
